@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="79f50afec409482db723834a9f9d3cff" Name="Diagram1">
+        <EntityTypeShape EntityType="DemoDBModel.LOOKUPRole" Width="1.5" PointX="0.5" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDBModel.SYSUser" Width="1.5" PointX="4.625" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDBModel.SYSUserProfile" Width="1.5" PointX="6.625" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDBModel.SYSUserRole" Width="1.5" PointX="2.75" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="DemoDBModel.FK__SYSUserRo__LOOKU__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDBModel.FK__SYSUserPr__SYSUs__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDBModel.FK__SYSUserRo__SYSUs__22AA2996" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
